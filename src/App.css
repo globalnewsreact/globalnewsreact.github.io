@@ -1,0 +1,59 @@
+body {
+  background: white;
+  color: black;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.links > *{
+  color: skyblue;
+  font-size: 2rem;
+  display: inline;
+  margin: 0 25px;
+}
+
+.links >*:hover{
+  font-size: 2rem;
+  color: white;
+  filter: drop-shadow(0 0 2px black);
+}
+
+nav ul li{
+  display: inline-block;
+  gap: 25px;
+}
+
+header {
+  padding: 15px 0;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(to top, white, skyblue, blue)
+}
+
+header img {
+  max-width: 150px;
+}
+
+footer {
+  padding: 15px 0;
+  color: white;
+  background: linear-gradient(to top, blue, skyblue, white);
+}
+
+.news {
+  margin: 0 auto;
+  max-width: 80%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#social {
+  color: black;
+}
+
+.news img{
+  border: 5px skyblue solid;
+}
